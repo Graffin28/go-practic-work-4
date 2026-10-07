@@ -25,7 +25,7 @@ func main() {
 
 	}
 
-	//send 10 jobs
+
 	for i := 1; i <= 10; i++ {
 		jobs <- i
 	}
